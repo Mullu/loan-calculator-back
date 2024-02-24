@@ -4,7 +4,7 @@ This is a simple ASP.NET Core application developed to calculate the cost of hou
 
 ## Features
 
-4 - **User Interface**: The application offers a user-friendly interface provided by Swagger UI, where users can easily input the desired loan amount and payback time in number of years.
+- **User Interface**: The application offers a user-friendly interface provided by Swagger UI, where users can easily input the desired loan amount and payback time in number of years.
 - **Interest Calculation**: It calculates the monthly payback plan considering a fixed interest rate of 3.5% per year, following the series loan principle.
 - **Loan Types**: The application is designed to accommodate different loan types with potentially different interest rates, allowing for flexibility in loan calculations. Currently, only the housing loan type is implemented.
 - **Scalability**: The architecture of the application is built to be easily extendable for calculating payment plans for other types of loans, such as car loans or personal loans, with different interest rates or payback schemes.
