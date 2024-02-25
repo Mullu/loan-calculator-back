@@ -14,10 +14,10 @@ This is a simple ASP.NET Core application developed to calculate the cost of hou
 The images below show sample user interface provided by Swagger UI for inputting loan parameters and viewing payment plans. It provides a sample user input of 2 million loan amount with loan payment duration of 30 years and the resulting payment plan response from the API will have 360 records same as the number of months and will provide the monthlyPayment of 8980.89 and remainingAmount in each month.
 
 Swagger UI Sample user input:
-![Swagger UI Sample user input](swagger-ui-sample-user-input.png)
+![Swagger UI Sample user input](swagger-ui-sample-user-input.PNG)
 
 Swagger UI Sample resulting payment plan:
-![Swagger UI Sample resulting payment plan](swagger-ui-sample-resulting-payment-plan.png)
+![Swagger UI Sample resulting payment plan](swagger-ui-sample-resulting-payment-plan.PNG)
 
 ## Architecture
 
