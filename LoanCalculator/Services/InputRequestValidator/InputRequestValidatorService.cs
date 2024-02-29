@@ -23,18 +23,14 @@ namespace LoanCalculator.Services.InputRequestValidator
             return (true, null);
         }
 
-        private bool IsValidAmount(object amount)
+        private bool IsValidAmount(decimal amount)
         {
-            return amount is decimal decimalAmount &&
-                   decimalAmount > MinLoanAmount &&
-                   decimalAmount <= MaxDecimalValue;
+            return amount > MinLoanAmount && amount <= MaxDecimalValue;
         }
 
-        private bool IsValidDuration(object duration)
+        private bool IsValidDuration(int duration)
         {
-            return duration is int intDuration &&
-                   intDuration > MinLoanDurationInYears &&
-                   intDuration <= MaxIntValue;
+            return duration > MinLoanDurationInYears && duration <= MaxIntValue;
         }
     }
 }
